@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -34,6 +36,7 @@ body {
 .logo {
   color: #f9faf8;
   font-size: 24px;
+  font-family: 'Lora', serif;
 }
 
 .hero-main-text {
@@ -45,6 +48,7 @@ body {
 
 .secondary-text {
   font-size: 18px;
+  line-height: 1.4;
   color: #e5e7eb;
   margin: 0;
 }
@@ -71,11 +75,13 @@ body {
   text-align: center;
   display: inline-block;
   align-self: flex-start;
+  margin-top: 10px;
 }
 
 .hero-img {
   width: 450px;
   height: 250px;
+  border-radius: 7px;
 }
 
 /* information */
@@ -105,7 +111,7 @@ body {
 }
 
 .img {
-  border: 3px solid #3882f6;
+  /* border: 3px solid #3882f6; */
   border-radius: 10px;
   width: 150px;
   height: 150px;
